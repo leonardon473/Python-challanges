@@ -10,3 +10,8 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple
 """
+list_string = input ("Escribe una secuencia de numeros:")
+lista = list_string.split(",")
+tupla = tuple(lista)
+print(lista)
+print(tupla)
